@@ -1,0 +1,40 @@
+﻿  main.cpp
+D:\PROGRAMMI\visual studio\VC\include\math.h(1298): warning C4005: 'M_PI': ridefinizione macro
+          c:\sdl\sdl2-2.0.0\include\SDL_stdinc.h(339): vedere la precedente definizione di 'M_PI'
+  myMap .cpp
+map\myMap .cpp(41): warning C4244: '=': conversione da 'int' a 'float'. Possibile perdita di dati.
+map\myMap .cpp(42): warning C4244: '=': conversione da 'int' a 'float'. Possibile perdita di dati.
+map\myMap .cpp(45): warning C4244: '=': conversione da 'int' a 'float'. Possibile perdita di dati.
+map\myMap .cpp(46): warning C4244: '=': conversione da 'int' a 'float'. Possibile perdita di dati.
+map\myMap .cpp(49): warning C4244: '=': conversione da 'int' a 'float'. Possibile perdita di dati.
+map\myMap .cpp(50): warning C4244: '=': conversione da 'int' a 'float'. Possibile perdita di dati.
+map\myMap .cpp(53): warning C4244: '=': conversione da 'int' a 'float'. Possibile perdita di dati.
+map\myMap .cpp(54): warning C4244: '=': conversione da 'int' a 'float'. Possibile perdita di dati.
+map\myMap .cpp(92): warning C4244: 'argomento': conversione da 'float' a 'int'. Possibile perdita di dati.
+  phaseMap.cpp
+menu\phaseMap.cpp(40): warning C4244: '=': conversione da 'Sint32' a 'float'. Possibile perdita di dati.
+menu\phaseMap.cpp(41): warning C4244: '=': conversione da 'Sint32' a 'float'. Possibile perdita di dati.
+menu\phaseMap.cpp(115): warning C4244: '=': conversione da 'double' a 'float'. Possibile perdita di dati.
+menu\phaseMap.cpp(117): warning C4305: '+=': troncamento da 'double' a 'float'
+menu\phaseMap.cpp(119): warning C4244: '=': conversione da 'double' a 'float'. Possibile perdita di dati.
+menu\phaseMap.cpp(123): warning C4244: '+=': conversione da 'double' a 'float'. Possibile perdita di dati.
+menu\phaseMap.cpp(124): warning C4244: '+=': conversione da 'double' a 'float'. Possibile perdita di dati.
+menu\phaseMap.cpp(125): warning C4244: '-=': conversione da 'double' a 'float'. Possibile perdita di dati.
+menu\phaseMap.cpp(126): warning C4244: '-=': conversione da 'double' a 'float'. Possibile perdita di dati.
+  myUtility.cpp
+D:\PROGRAMMI\visual studio\VC\include\math.h(1298): warning C4005: 'M_PI': ridefinizione macro
+          c:\sdl\sdl2-2.0.0\include\SDL_stdinc.h(339): vedere la precedente definizione di 'M_PI'
+myUtility.cpp(197): warning C4244: 'argomento': conversione da 'int' a 'float'. Possibile perdita di dati.
+myUtility.cpp(685): warning C4244: 'argomento': conversione da 'int' a 'float'. Possibile perdita di dati.
+  Generazione del codice in corso...
+MSVCRTD.lib(cinitexe.obj) : warning LNK4098: la libreria predefinita 'msvcrt.lib' Þ in conflitto con l'utilizzo di altre librerie; utilizzare /NODEFAULTLIB:libreria
+myUtility.obj : warning LNK4248: token typeref (0100001D) non risolto per '_TTF_Font'; l'immagine potrebbe non essere eseguita
+myTexture.obj : warning LNK4248: token typeref (01000017) non risolto per '_TTF_Font'; l'immagine potrebbe non essere eseguita
+myFps.obj : warning LNK4248: token typeref (01000017) non risolto per '_TTF_Font'; l'immagine potrebbe non essere eseguita
+menuStart.obj : warning LNK4248: token typeref (0100001F) non risolto per '_TTF_Font'; l'immagine potrebbe non essere eseguita
+myUtility.obj : warning LNK4248: token typeref (0100001A) non risolto per 'SDL_Window'; l'immagine potrebbe non essere eseguita
+myButton.obj : warning LNK4248: token typeref (0100001A) non risolto per 'SDL_Window'; l'immagine potrebbe non essere eseguita
+phaseMap.obj : warning LNK4248: token typeref (0100001A) non risolto per 'SDL_Window'; l'immagine potrebbe non essere eseguita
+myMusic.obj : warning LNK4248: token typeref (01000019) non risolto per '_Mix_Music'; l'immagine potrebbe non essere eseguita
+myUtility.obj : warning LNK4248: token typeref (01000022) non risolto per 'SDL_Renderer'; l'immagine potrebbe non essere eseguita
+  SPACE_hATEr.vcxproj -> D:\SPACE hATEr\Visual studio\SPACE_hATEr\Debug\SPACE_hATEr.exe

@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="File di origine">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="File di intestazione">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="File di risorse">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="File di risorse\map">
+      <UniqueIdentifier>{8bc6383d-e12c-45ed-b22e-07ca7597f27f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di intestazione\menu">
+      <UniqueIdentifier>{7aa3807e-ca99-4615-b712-e78fedd30c83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di origine\menu">
+      <UniqueIdentifier>{cec77118-3741-40ef-a502-c7c4a219a804}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di intestazione\map">
+      <UniqueIdentifier>{25200d30-baf5-43a5-a1e3-08ea2911a832}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di origine\map">
+      <UniqueIdentifier>{5c57417e-81ce-4289-885d-cdba5a3a98ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di origine\new">
+      <UniqueIdentifier>{037da97b-2223-4e03-8c94-63f346f07101}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di intestazione\new">
+      <UniqueIdentifier>{22248f43-ff4a-4c78-9a9c-cc55ee18368a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di intestazione\shader">
+      <UniqueIdentifier>{5d75330d-09de-4a99-b0ee-39b1c429a61e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di origine\shader">
+      <UniqueIdentifier>{2ff0752a-406a-45c5-9fba-2dffdc4a856e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di intestazione\3Dmodel">
+      <UniqueIdentifier>{b2168db7-680d-4c99-b398-58041ca7bda5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di origine\3Dmodel">
+      <UniqueIdentifier>{dd982d29-584b-4ab5-82ad-afe1a24b64c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di risorse\mesh">
+      <UniqueIdentifier>{eb72f103-b8d6-4280-a631-caa2d94a53aa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="myUtility.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="myTexture.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="myMusic.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="myButton.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="mySave.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="myConfig.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="myFps.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="map\myMap .cpp">
+      <Filter>File di origine\map</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\menuStart.cpp">
+      <Filter>File di origine\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\myElement.cpp">
+      <Filter>File di origine\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="map\myShip.cpp">
+      <Filter>File di origine\map</Filter>
+    </ClCompile>
+    <ClCompile Include="myMesh.cpp">
+      <Filter>File di origine\3Dmodel</Filter>
+    </ClCompile>
+    <ClCompile Include="myShader.cpp">
+      <Filter>File di origine\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="myMath.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="myPipeline.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="rectangle.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="mySdraw.cpp">
+      <Filter>File di origine\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="mySlightLESS.cpp">
+      <Filter>File di origine\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="mySlight.cpp">
+      <Filter>File di origine\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="mySadvanceLight.cpp">
+      <Filter>File di origine\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\phaseMap.cpp">
+      <Filter>File di origine\menu</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="myUtility.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="myTexture.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="myMusic.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="myButton.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="mySave.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="myConfig.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="myFps.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="map\myMap.h">
+      <Filter>File di intestazione\map</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\menuStart.h">
+      <Filter>File di intestazione\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\myElement.h">
+      <Filter>File di intestazione\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="map\myShip.h">
+      <Filter>File di intestazione\map</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\phaseMap.h">
+      <Filter>File di intestazione\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="myMesh.h">
+      <Filter>File di intestazione\3Dmodel</Filter>
+    </ClInclude>
+    <ClInclude Include="myShader.h">
+      <Filter>File di intestazione\shader</Filter>
+    </ClInclude>
+    <ClInclude Include="myMath.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="myPipeline.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="rectangle.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="mySdraw.h">
+      <Filter>File di intestazione\shader</Filter>
+    </ClInclude>
+    <ClInclude Include="mySlightLESS.h">
+      <Filter>File di intestazione\shader</Filter>
+    </ClInclude>
+    <ClInclude Include="mySlight.h">
+      <Filter>File di intestazione\shader</Filter>
+    </ClInclude>
+    <ClInclude Include="mySadvanceLight.h">
+      <Filter>File di intestazione\shader</Filter>
+    </ClInclude>
+    <ClInclude Include="myDefUtil.h">
+      <Filter>File di intestazione\new</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="gear.png">
+      <Filter>File di risorse</Filter>
+    </Image>
+    <Image Include="map\map1-1.jpg">
+      <Filter>File di risorse\map</Filter>
+    </Image>
+    <Image Include="map\map1-2.jpg">
+      <Filter>File di risorse\map</Filter>
+    </Image>
+    <Image Include="map\map2-1.jpg">
+      <Filter>File di risorse\map</Filter>
+    </Image>
+    <Image Include="map\map2-2.jpg">
+      <Filter>File di risorse\map</Filter>
+    </Image>
+    <Image Include="map\default.jpg">
+      <Filter>File di risorse\map</Filter>
+    </Image>
+    <Image Include="launcher.jpg">
+      <Filter>File di risorse</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Config.txt">
+      <Filter>File di risorse</Filter>
+    </Text>
+    <Text Include="map\myMap.txt">
+      <Filter>File di risorse\map</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="beat.wav">
+      <Filter>File di risorse</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="arial.ttf">
+      <Filter>File di risorse</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="mesh\phoenix.pcx">
+      <Filter>File di risorse\mesh</Filter>
+    </None>
+    <None Include="mesh\phoenix_ugv.md2">
+      <Filter>File di risorse\mesh</Filter>
+    </None>
+  </ItemGroup>
+</Project>

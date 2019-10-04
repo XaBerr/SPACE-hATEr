@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<DEFECTS><DEFECT><SFA><FILEPATH>d:\space hater\visual studio\space_hater\space_hater\</FILEPATH><FILENAME>myconfig.cpp</FILENAME><LINE>65</LINE><COLUMN>13</COLUMN></SFA><DEFECTCODE>6031</DEFECTCODE><DESCRIPTION>Valore restituito ignorato: 'sscanf'.</DESCRIPTION><FUNCTION>myConfig::download</FUNCTION><DECORATED>?download@myConfig@@$$FQAEXXZ</DECORATED><FUNCLINE>47</FUNCLINE><PATH/></DEFECT></DEFECTS>

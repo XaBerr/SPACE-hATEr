@@ -1,0 +1,6 @@
+Resolution = 3
+Vsynch = 0
+ScreenMode = 0
+Music = 5
+Effect = 5
+Leanguage = 0

@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{934E0A60-0D8D-495F-BCB4-23B8D8CF830C}</ProjectGuid>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>SPACE_hATEr</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\SDL\SDL2-2.0.0\include;C:\GLUT\freeglut\include;C:\GLUT\assimp;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\GLUT\assimp\lib;C:\GLUT\freeglut\lib;C:\SDL\SDL2-2.0.0\lib\x86;C:\GLUT\freeglut\lib\Release\Win32;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_ttf.lib;SDL2_mixer.lib;OpenGL32.lib;freeglut.lib;glew32.lib;assimp.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Console</SubSystem>
+      <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="mySadvanceLight.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="mySdraw.cpp" />
+    <ClCompile Include="mySlight.cpp" />
+    <ClCompile Include="mySlightLESS.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="map\myMap .cpp" />
+    <ClCompile Include="map\myShip.cpp" />
+    <ClCompile Include="menu\menuStart.cpp" />
+    <ClCompile Include="menu\myElement.cpp" />
+    <ClCompile Include="menu\phaseMap.cpp" />
+    <ClCompile Include="myButton.cpp" />
+    <ClCompile Include="myConfig.cpp" />
+    <ClCompile Include="myFps.cpp" />
+    <ClCompile Include="myMath.cpp" />
+    <ClCompile Include="myMesh.cpp" />
+    <ClCompile Include="myMusic.cpp" />
+    <ClCompile Include="myPipeline.cpp" />
+    <ClCompile Include="mySave.cpp" />
+    <ClCompile Include="myShader.cpp" />
+    <ClCompile Include="myTexture.cpp" />
+    <ClCompile Include="myUtility.cpp" />
+    <ClCompile Include="rectangle.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="mySadvanceLight.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="mySdraw.h" />
+    <ClInclude Include="mySlight.h" />
+    <ClInclude Include="mySlightLESS.h" />
+    <ClInclude Include="map\myMap.h" />
+    <ClInclude Include="map\myShip.h" />
+    <ClInclude Include="menu\menuStart.h" />
+    <ClInclude Include="menu\myElement.h" />
+    <ClInclude Include="menu\phaseMap.h" />
+    <ClInclude Include="myButton.h" />
+    <ClInclude Include="myConfig.h" />
+    <ClInclude Include="myFps.h" />
+    <ClInclude Include="myMath.h" />
+    <ClInclude Include="myMesh.h" />
+    <ClInclude Include="myDefUtil.h" />
+    <ClInclude Include="myMusic.h" />
+    <ClInclude Include="myPipeline.h" />
+    <ClInclude Include="mySave.h" />
+    <ClInclude Include="myShader.h" />
+    <ClInclude Include="myTexture.h" />
+    <ClInclude Include="myUtility.h" />
+    <ClInclude Include="rectangle.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="gear.png" />
+    <Image Include="launcher.jpg" />
+    <Image Include="map\default.jpg" />
+    <Image Include="map\map1-1.jpg" />
+    <Image Include="map\map1-2.jpg" />
+    <Image Include="map\map2-1.jpg" />
+    <Image Include="map\map2-2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Config.txt" />
+    <Text Include="map\myMap.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="beat.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="arial.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="mesh\phoenix.pcx" />
+    <None Include="mesh\phoenix_ugv.md2" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
